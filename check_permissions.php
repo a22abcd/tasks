@@ -3,15 +3,8 @@ function getUserPermissions($userId) {
     global $conn;
     
     try {
-        // تحقق من وجود اتصال قاعدة البيانات
-        if (!$conn) {
-            error_log("Database connection is missing");
-            return [];
-        }
-
         $permissions = [];
         
-        // استعلام مباشر للحصول على الصلاحيات
         $query = "
             SELECT DISTINCT p.name 
             FROM permissions p
@@ -27,18 +20,12 @@ function getUserPermissions($userId) {
         }
         
         $stmt->bind_param("i", $userId);
-        if (!$stmt->execute()) {
-            error_log("Error executing statement: " . $stmt->error);
-            return [];
-        }
-        
+        $stmt->execute();
         $result = $stmt->get_result();
+        
         while ($row = $result->fetch_assoc()) {
             $permissions[] = $row['name'];
         }
-        
-        // حفظ الصلاحيات في السيشن
-        $_SESSION['permissions'] = $permissions;
         
         return $permissions;
     } catch (Exception $e) {
@@ -48,21 +35,13 @@ function getUserPermissions($userId) {
 }
 
 function hasPermission($permission) {
-    // تحديث الصلاحيات إذا لم تكن موجودة
-    if (!isset($_SESSION['permissions']) || empty($_SESSION['permissions'])) {
+    if (!isset($_SESSION['user_id'])) {
+        return false;
+    }
+    
+    if (!isset($_SESSION['permissions'])) {
         $_SESSION['permissions'] = getUserPermissions($_SESSION['user_id']);
     }
     
     return in_array($permission, $_SESSION['permissions']);
-}
-
-// دالة للتحقق من الصلاحيات وعرض معلومات التصحيح
-function checkAndLogPermissions() {
-    if (isset($_SESSION['user_id'])) {
-        $permissions = getUserPermissions($_SESSION['user_id']);
-        error_log("User ID: " . $_SESSION['user_id']);
-        error_log("Permissions: " . implode(", ", $permissions));
-        return $permissions;
-    }
-    return [];
 }
