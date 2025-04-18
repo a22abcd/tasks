@@ -1,0 +1,323 @@
+[14-Apr-2025 09:44:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 359
+[14-Apr-2025 09:44:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 361
+[14-Apr-2025 09:44:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 359
+[14-Apr-2025 09:44:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 361
+[14-Apr-2025 09:45:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 359
+[14-Apr-2025 09:45:19 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 361
+[14-Apr-2025 10:05:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 359
+[14-Apr-2025 10:05:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 361
+[14-Apr-2025 13:48:36 UTC] Received data: Array
+(
+    [task_id] => 6
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 13:49:17 UTC] Received data: Array
+(
+    [task_id] => 2
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 13:55:03 UTC] Received data: Array
+(
+    [task_id] => 1
+    [rating] => 4
+    [action] => archive
+)
+
+[14-Apr-2025 13:56:31 UTC] Received data: Array
+(
+    [task_id] => 13
+    [rating] => 4
+    [action] => archive
+)
+
+[14-Apr-2025 14:05:32 UTC] Received data: Array
+(
+    [task_id] => 14
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 19:27:50 UTC] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:301
+Stack trace:
+#0 /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php(301): PDO->rollBack()
+#1 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 301
+[14-Apr-2025 19:28:44 UTC] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:301
+Stack trace:
+#0 /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php(301): PDO->rollBack()
+#1 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 301
+[14-Apr-2025 19:49:37 UTC] PHP Fatal error:  Uncaught PDOException: There is no active transaction in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:301
+Stack trace:
+#0 /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php(301): PDO->rollBack()
+#1 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 301
+[14-Apr-2025 20:29:14 UTC] Received data: Array
+(
+    [task_id] => 16
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 20:29:23 UTC] Received data: Array
+(
+    [task_id] => 15
+    [rating] => 5
+    [action] => reassign
+)
+
+[14-Apr-2025 20:30:51 UTC] Received data: Array
+(
+    [task_id] => 15
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 20:39:30 UTC] Received data: Array
+(
+    [task_id] => 16
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 20:40:00 UTC] Received data: Array
+(
+    [task_id] => 16
+    [rating] => 5
+    [action] => reassign
+)
+
+[14-Apr-2025 20:57:40 UTC] Received data: Array
+(
+    [task_id] => 17
+    [rating] => 5
+    [action] => archive
+)
+
+[14-Apr-2025 21:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:186
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 186
+[14-Apr-2025 21:44:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:186
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 186
+[14-Apr-2025 21:45:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:186
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 186
+[14-Apr-2025 21:45:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:186
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 186
+[14-Apr-2025 21:48:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:186
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 186
+[14-Apr-2025 23:53:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:205
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 205
+[14-Apr-2025 23:57:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:185
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 185
+[14-Apr-2025 23:58:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:185
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 185
+[14-Apr-2025 23:58:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:185
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 185
+[15-Apr-2025 00:01:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:185
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 185
+[15-Apr-2025 00:10:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:185
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 185
+[15-Apr-2025 00:11:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:185
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 185
+[15-Apr-2025 00:18:20 UTC] List request - User ID: 8, Role: admin
+[15-Apr-2025 00:18:20 UTC] Filters - Archived: , Search: , Status: , Employee: 0
+[15-Apr-2025 00:18:20 UTC] SQL Query: SELECT t.*, 
+                 u.full_name as assigned_to_name,
+                 DATEDIFF(CURRENT_TIMESTAMP, t.start_date) as days_passed
+                 FROM tasks t 
+                 LEFT JOIN users u ON t.assigned_to = u.id 
+                 WHERE 1=1 AND t.is_archived = :is_archived ORDER BY t.created_at DESC
+[15-Apr-2025 00:18:20 UTC] Parameters: Array
+(
+    [:is_archived] => 0
+)
+
+[15-Apr-2025 00:18:20 UTC] Found 1 tasks
+[15-Apr-2025 00:18:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:187
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 187
+[15-Apr-2025 00:21:33 UTC] List request - User ID: 8, Role: admin
+[15-Apr-2025 00:21:33 UTC] Filters - Archived: , Search: , Status: , Employee: 0
+[15-Apr-2025 00:21:33 UTC] SQL Query: SELECT t.*, 
+                 u.full_name as assigned_to_name,
+                 DATEDIFF(CURRENT_TIMESTAMP, t.start_date) as days_passed
+                 FROM tasks t 
+                 LEFT JOIN users u ON t.assigned_to = u.id 
+                 WHERE 1=1 AND t.is_archived = :is_archived ORDER BY t.created_at DESC
+[15-Apr-2025 00:21:33 UTC] Parameters: Array
+(
+    [:is_archived] => 0
+)
+
+[15-Apr-2025 00:21:33 UTC] Found 1 tasks
+[15-Apr-2025 00:21:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:187
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 187
+[15-Apr-2025 00:25:12 UTC] List request - User ID: 8, Role: admin
+[15-Apr-2025 00:25:12 UTC] Filters - Archived: , Search: , Status: , Employee: 0
+[15-Apr-2025 00:25:12 UTC] SQL Query: SELECT t.*, 
+                 u.full_name as assigned_to_name,
+                 DATEDIFF(CURRENT_TIMESTAMP, t.start_date) as days_passed
+                 FROM tasks t 
+                 LEFT JOIN users u ON t.assigned_to = u.id 
+                 WHERE 1=1 AND t.is_archived = :is_archived ORDER BY t.created_at DESC
+[15-Apr-2025 00:25:12 UTC] Parameters: Array
+(
+    [:is_archived] => 0
+)
+
+[15-Apr-2025 00:25:12 UTC] Found 1 tasks
+[15-Apr-2025 00:25:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function calculateTaskStatus() in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php:192
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/task_actions.php on line 192
+[15-Apr-2025 20:58:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WARNING_THRESHOLD" in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php on line 54
+[15-Apr-2025 21:00:49 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WARNING_THRESHOLD" in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php on line 54
+[15-Apr-2025 21:01:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WARNING_THRESHOLD" in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php on line 54
+[15-Apr-2025 21:02:19 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WARNING_THRESHOLD" in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/report_actions.php on line 54
+[15-Apr-2025 21:25:28 UTC] PHP Warning:  require_once(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 4
+[15-Apr-2025 21:25:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 4
+[15-Apr-2025 22:48:39 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 22:48:39 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 143
+[15-Apr-2025 22:48:39 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 143
+[15-Apr-2025 22:55:20 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 22:55:20 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 22:55:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:00:18 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:00:18 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:00:18 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:01:33 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:01:33 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 143
+[15-Apr-2025 23:01:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 143
+[15-Apr-2025 23:04:43 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:04:43 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:04:43 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:04:58 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:04:58 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:04:58 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:06:44 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:06:44 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:06:44 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:23:53 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:23:53 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:23:53 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:24:58 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 14
+[15-Apr-2025 23:24:58 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:24:58 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:25:44 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 15
+[15-Apr-2025 23:25:44 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:25:44 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:25:59 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 15
+[15-Apr-2025 23:25:59 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:25:59 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 144
+[15-Apr-2025 23:31:15 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 18
+[15-Apr-2025 23:31:15 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 149
+[15-Apr-2025 23:31:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 149
+[15-Apr-2025 23:36:22 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 19
+[15-Apr-2025 23:36:22 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 150
+[15-Apr-2025 23:36:22 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 150
+[15-Apr-2025 23:37:36 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 19
+[15-Apr-2025 23:37:36 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 150
+[15-Apr-2025 23:37:36 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 150
+[15-Apr-2025 23:39:54 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 18
+[15-Apr-2025 23:39:54 UTC] PHP Warning:  Undefined variable $current_datetime in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 128
+[15-Apr-2025 23:39:54 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 149
+[15-Apr-2025 23:39:54 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 149
+[15-Apr-2025 23:40:46 UTC] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 19
+[15-Apr-2025 23:40:46 UTC] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 150
+[15-Apr-2025 23:40:46 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 150
+[16-Apr-2025 01:43:57 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 20
+[16-Apr-2025 01:43:57 Africa/Cairo] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 151
+[16-Apr-2025 01:43:57 Africa/Cairo] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 151
+[16-Apr-2025 01:53:35 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 20
+[16-Apr-2025 01:53:35 Africa/Cairo] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 169
+[16-Apr-2025 01:53:35 Africa/Cairo] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 169
+[16-Apr-2025 01:54:00 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 20
+[16-Apr-2025 01:54:00 Africa/Cairo] PHP Warning:  Undefined variable $reports in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 169
+[16-Apr-2025 01:54:00 Africa/Cairo] PHP Warning:  foreach() argument must be of type array|object, null given in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 169
+[16-Apr-2025 02:10:31 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 69
+[16-Apr-2025 02:28:16 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 02:51:42 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 02:52:51 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 02:55:39 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 02:57:24 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 03:31:51 Africa/Cairo] Error in report_actions.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'priority' in 'SELECT'
+[16-Apr-2025 03:31:51 Africa/Cairo] Error in report_actions.php: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'priority' in 'SELECT'
+[16-Apr-2025 02:43:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ddate_default_timezone_set() in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 6
+[16-Apr-2025 02:44:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ddate_default_timezone_set() in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 6
+[16-Apr-2025 02:57:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ddate_default_timezone_set() in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 6
+[16-Apr-2025 04:57:45 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 05:10:25 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 05:20:35 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 05:25:41 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 05:26:24 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 05:26:32 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 106
+[16-Apr-2025 03:31:01 UTC] PHP Parse error:  Unmatched '}' in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 326
+[16-Apr-2025 03:31:11 UTC] PHP Parse error:  Unmatched '}' in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 326
+[16-Apr-2025 05:34:22 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 69
+[16-Apr-2025 05:34:36 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 69
+[16-Apr-2025 05:39:26 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 69
+[16-Apr-2025 05:39:46 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 69
+[16-Apr-2025 05:52:12 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 69
+[16-Apr-2025 06:00:07 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 72
+[16-Apr-2025 06:05:22 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 72
+[16-Apr-2025 06:08:52 Africa/Cairo] PHP Warning:  Undefined variable $format in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 72
+[16-Apr-2025 04:11:55 UTC] PHP Parse error:  syntax error, unexpected single-quoted string " . date(" in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 75
+[16-Apr-2025 04:12:03 UTC] PHP Parse error:  syntax error, unexpected single-quoted string " . date(" in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 75
+[16-Apr-2025 06:17:35 Africa/Cairo] PHP Warning:  Undefined variable $logo_path in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 269
+[16-Apr-2025 06:22:50 Africa/Cairo] PHP Warning:  Undefined variable $logo_path in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 275
+[16-Apr-2025 12:02:50 Africa/Cairo] PHP Warning:  Undefined variable $logo_path in /home/mecaiwbu/public_html/wp/tasks/actions/export_reports.php on line 275
+[17-Apr-2025 20:32:31 UTC] Error in task_actions.php: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`mecaiwbu_tasks`.`tasks`, CONSTRAINT `tasks_ibfk_2` FOREIGN KEY (`assigned_to`) REFERENCES `users` (`id`))

@@ -1,0 +1,352 @@
+/* Add these styles to the existing style.css file */
+
+.attachment-link {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #0d6efd;
+}
+
+.attachment-link:hover {
+    background: #e9ecef;
+    text-decoration: underline;
+}
+
+.daily-report {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.task-filters {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+.task-status {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+}
+
+.status-pending {
+    background: #ffc107;
+    color: #000;
+}
+
+.status-in-progress {
+    background: #0dcaf0;
+    color: #000;
+}
+
+.status-completed {
+    background: #198754;
+    color: #fff;
+}
+
+.difficulty-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+}
+
+.difficulty-1 {
+    background: #28a745;
+    color: #fff;
+}
+
+.difficulty-2 {
+    background: #ffc107;
+    color: #000;
+}
+
+.difficulty-3 {
+    background: #dc3545;
+    color: #fff;
+}
+
+.rating-stars {
+    font-size: 24px;
+    direction: ltr; /* لضمان ترتيب النجوم من اليسار لليمين */
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.rating-stars {
+    font-size: 24px;
+    direction: ltr;
+    display: inline-block;
+    text-align: center;
+}
+
+.rating-stars i {
+    color: #ddd;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: color 0.2s ease;
+}
+
+.rating-stars i.active {
+    color: #ffd700 !important;
+}
+
+.rating-stars i:hover {
+    color: #ffed4a;
+}
+
+.rating-value {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.task-details .card {
+    margin-bottom: 1.5rem;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 1rem;
+    border-left: 2px solid #dee2e6;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #0d6efd;
+}
+
+.timeline-date {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.rating-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.comment-item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.stars {
+    margin-bottom: 0.5rem;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    font-size: 0.875rem;
+    line-height: 25px;
+}
+
+ /* إضافة هذه الأنماط في قسم <style> في <head> */
+    .rating-stars {
+        direction: ltr; /* لضمان عرض النجوم من اليسار إلى اليمين */
+        display: inline-block;
+    }
+    
+    .rating-stars i {
+        color: #ddd;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 5px;
+        transition: color 0.2s ease;
+    }
+    
+    .rating-stars i:hover,
+    .rating-stars i:hover ~ i {
+        color: #ffd700;
+    }
+    
+    .rating-stars i.active {
+        color: #ffd700;
+    }
+    
+    .task-details .card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.task-details .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.task-details h6 {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.comment-item, .rating-item {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.comment-item:last-child, .rating-item:last-child {
+    border-bottom: none;
+}
+
+.stars {
+    color: #ffd700;
+    margin-bottom: 0.5rem;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+<style>
+    .task-details .card {
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 1.5rem;
+    }
+
+    .rating-stars {
+        direction: ltr;
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    .rating-stars i {
+        font-size: 24px;
+        color: #ddd;
+        margin: 0 2px;
+        cursor: pointer;
+        transition: color 0.2s ease;
+    }
+
+    .rating-stars i.hover,
+    .rating-stars i.active {
+        color: #ffd700;
+    }
+
+    .comment-item, 
+    .rating-item {
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+
+    .comment-item:last-child,
+    .rating-item:last-child {
+        border-bottom: none;
+    }
+
+    .badge {
+        padding: 5px 10px;
+        border-radius: 4px;
+    }
+    
+    .card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+}
+
+.statistics-card {
+    border-radius: 10px;
+    border: none;
+}
+
+.statistics-card h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.statistics-card h6 {
+    margin-bottom: 1rem;
+}
+
+.task-item {
+    border: 1px solid #e9ecef;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.task-item:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+}
+
+.task-title {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.task-description {
+    color: #6c757d;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.task-meta {
+    font-size: 0.85em;
+}
+
+.task-badge {
+    font-size: 0.8em;
+    padding: 6px 12px;
+    border-radius: 15px;
+}
+
+.archived-task {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    opacity: 0.8;
+}
+
+.archived-task:hover {
+    opacity: 1;
+}
+
+.archived-task .task-title {
+    color: #6c757d;
+}
+
+.task-meta small {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.task-badge {
+    font-size: 0.8em;
+    padding: 6px 12px;
+    border-radius: 15px;
+}
+</style>

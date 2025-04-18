@@ -1,0 +1,10 @@
+[14-Apr-2025 07:57:33 UTC] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/mecaiwbu/public_html/wp/tasks/temp/create_tables.php on line 2
+[14-Apr-2025 07:57:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mecaiwbu/public_html/wp/tasks/temp/create_tables.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/temp/create_tables.php on line 2
+[14-Apr-2025 07:58:25 UTC] PHP Warning:  require_once(config/database.php): Failed to open stream: No such file or directory in /home/mecaiwbu/public_html/wp/tasks/temp/create_tables.php on line 2
+[14-Apr-2025 07:58:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'config/database.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/mecaiwbu/public_html/wp/tasks/temp/create_tables.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mecaiwbu/public_html/wp/tasks/temp/create_tables.php on line 2
