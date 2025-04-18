@@ -1,28 +1,26 @@
 <?php
-session_start();
-require_once 'config.php';
-require_once 'check_permissions.php';
-
-// تفعيل عرض الأخطاء للتطوير
+<?php
+// في بداية الملف
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+session_start();
+require_once 'config.php';
+require_once 'check_permissions.php';
+
+// التحقق من تسجيل الدخول
 if (!isset($_SESSION['user_id'])) {
     header('Location: login.php');
     exit();
 }
 
-// تحديث الصلاحيات عند تسجيل الدخول
-if (!isset($_SESSION['permissions'])) {
-    $_SESSION['permissions'] = getUserPermissions($_SESSION['user_id']);
-}
-
-// التحقق من وجود صلاحيات
-if (empty($_SESSION['permissions'])) {
-    echo "لا توجد صلاحيات محددة لحسابك. يرجى التواصل مع المسؤول.";
-    exit();
-}
+// تحديث وعرض معلومات الصلاحيات
+$userPermissions = checkAndLogPermissions();
+echo "<!--";
+var_dump($_SESSION);
+echo "-->";
+?>
 ?>
 <!DOCTYPE html>
 <html dir="rtl" lang="ar">
